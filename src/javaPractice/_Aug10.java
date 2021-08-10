@@ -8,8 +8,19 @@ public class _Aug10 {
 		int b = 8;
 */
 		//code
-
-
+        int a = 5;
+        int b = 8;
+        System.out.println("a =" + a); //5
+        System.out.println("b =" + b); //8
+//                int temp = a;
+//                a=b;
+//                b=temp;
+//
+      a= a+b; //13
+        b= a-b;
+        a= a- b;
+       System.out.println("a =" + a);
+       System.out.println("b =" + b);
 
 /*
 	Q2) Create 3 wrapper classes and print max and min values of the wrapper classes.
