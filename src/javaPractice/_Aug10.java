@@ -11,6 +11,7 @@ public class _Aug10 {
 
 
 
+
 /*
 	Q2) Create 3 wrapper classes and print max and min values of the wrapper classes.
 
