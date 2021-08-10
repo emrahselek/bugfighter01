@@ -30,14 +30,9 @@ public class _Aug10 {
 
 */
 
-
-
-
-
 		//code
-Integer q=55;
-Byte w=45;
-Short e=89;
+Integer num =54;
+        System.out.println(num.MAX_VALUE);
 
         System.out.println("max value of Integer: "+Integer.MAX_VALUE);
         System.out.println("max value of Byte: "+Byte.MAX_VALUE);
@@ -51,10 +46,10 @@ Short e=89;
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
  */
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter start and end numbers to print even number between your enteries");
-        int num1=scanner.nextInt();
-        int num2=scanner.nextInt();
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter start and end numbers to print even number between your enteries");
+//        int num1=scanner.nextInt();
+//        int num2=scanner.nextInt();
 
 
 
