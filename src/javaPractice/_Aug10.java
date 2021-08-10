@@ -3,7 +3,7 @@ package javaPractice;
 public class _Aug10 {
     public static void main(String[] args) {
 /*
-  	Q1) swap two numbers without creating and using a third variable?
+  	Q1) swap two numbers without creating and using a third variable??
 		int a = 5;
 		int b = 8;
 */
