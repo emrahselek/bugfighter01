@@ -7,7 +7,7 @@ public class _Aug10 {
 		int a = 5;
 		int b = 8;
 */
-		//code
+        //code
         int a = 5;
         int b = 8;
         System.out.println("a =" + a); //5
@@ -16,17 +16,17 @@ public class _Aug10 {
 //                a=b;
 //                b=temp;
 //
-      a= a+b; //13
+        a= a+b; //13
         b= a-b;
         a= a- b;
-       System.out.println("a =" + a);
-       System.out.println("b =" + b);
+        System.out.println("a =" + a);
+        System.out.println("b =" + b);
 
 /*
 	Q2) Create 3 wrapper classes and print max and min values of the wrapper classes.
 
 */
-		//code
+        //code
 
  /*
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
@@ -42,7 +42,7 @@ public class _Aug10 {
  */
 
 
- 	
+
 
 /*
 	Q5)
@@ -54,8 +54,19 @@ public class _Aug10 {
 	[1, 3, 8, 4, 5, 10, 7, 2, 9, 6, 11, 12, 14, 17, 16, 23, 18, 19, 20, 21, 22, 15, 24, 25]
 
 */
-		//code
+        //code
+
+
+
+/*
+
+	Q6)  from 1 to 25 but 3 numbers are missing
+
+	[1, 3, 8, 4, 5, 10, 7, 2, 9, 6, 11, 14, 17, 16, 23, 18, 19, 20, 22, 15, 24, 25]
+		use different algorithm from the previous question
+*/
+        //code
+
 
     }
-	
 }
