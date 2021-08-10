@@ -1,5 +1,8 @@
 package javaPractice;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class _Aug10 {
     public static void main(String[] args) {
 /*
@@ -7,7 +10,7 @@ public class _Aug10 {
 		int a = 5;
 		int b = 8;
 */
-		//code
+        //code
 //        int a = 5;
 //        int b = 8;
 //        System.out.println("a =" + a); //5
@@ -37,7 +40,7 @@ public class _Aug10 {
  /*
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
  */
-
+     //   Scanner scanner = new Scanner(System.in);
 
 
  /*
@@ -60,8 +63,21 @@ public class _Aug10 {
 	[1, 3, 8, 4, 5, 10, 7, 2, 9, 6, 11, 12, 14, 17, 16, 23, 18, 19, 20, 21, 22, 15, 24, 25]
 
 */
-		//code
+        int arr[] = {1, 3, 8, 4, 5, 10, 9, 6, 11, 12, 14, 17, 16, 23, 18, 19, 20, 21, 22, 15, 24, 25};
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
 
+
+        for(int i=1; i<26; i++) {
+            int newA = Arrays.binarySearch(arr, i);
+            if(newA<0) {
+                System.out.print(i+" ");
+            }
+
+        }
+    }
+
+}
 
 
 /*
@@ -75,5 +91,4 @@ public class _Aug10 {
 
 
 
-    }
-}
+
