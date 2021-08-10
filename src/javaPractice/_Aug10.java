@@ -48,7 +48,6 @@ Short e=89;
 
 
 
-
  /*
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
  */
