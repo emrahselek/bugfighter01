@@ -46,7 +46,12 @@ public class _Aug10 {
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
  */
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter two number to print even number between enteries");
+        int num1=scanner.nextInt();
+        int num2=scanner.nextInt();
 
+        for (int i =)
 
 
 
