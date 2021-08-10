@@ -53,6 +53,15 @@ public class Aug10New {
 */
         //code
 
+        /*
+        Q6)  from 1 to 25 but 3 numbers are missing
+
+                [1, 3, 8, 4, 5, 10, 7, 2, 9, 6, 11, 14, 17, 16, 23, 18, 19, 20, 22, 15, 24, 25]
+        use different algorithm from the previous question
+                */
+        //code
+
+
     }
 
 }
