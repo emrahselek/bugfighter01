@@ -47,7 +47,6 @@ Short e=89;
         System.out.println("min value of Short: "+Short.MIN_VALUE);
 
 
-
  /*
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
  */
