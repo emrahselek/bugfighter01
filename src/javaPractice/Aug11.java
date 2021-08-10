@@ -22,5 +22,13 @@ public class Aug11 {
          b=[9,8,7,6,5]
 
          */
+
+
+   /**
+   Q9 )
+        Write a program to find a factorial that entered by user. Eliminate mistakes that can be entered by user
+    */
+
+
     }
 }
