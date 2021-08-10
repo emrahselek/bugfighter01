@@ -75,6 +75,12 @@ public class Aug10New {
             from Q3 ==> count from start to end and print even numbers, (this part is done)
             Count from end to start and print odd numbers.
  */
+   //After Q3 ...
+        for(int i= num2; i>num1; i--){
+            if(i%2!=0){
+                System.out.print(i+ " ");
+            }
+        }
 
 
 
