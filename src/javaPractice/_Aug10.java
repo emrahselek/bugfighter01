@@ -1,5 +1,7 @@
 package javaPractice;
 
+import java.util.Scanner;
+
 public class _Aug10 {
     public static void main(String[] args) {
 /**
@@ -8,19 +10,30 @@ public class _Aug10 {
 		int b = 8;
 */
 		//code
-//    int a = 5;
-//    int b = 8;
-//    a = a+b;
-//    b = a-b;
-//    a = a-b;
-//
-//        System.out.println("a="+a+" b="+b);
+//        int a = 5;
+//        int b = 8;
+//        System.out.println("a =" + a); //5
+//        System.out.println("b =" + b); //8
+////                int temp = a;
+////                a=b;
+////                b=temp;
+////
+//        a= a+b; //13
+//        b= a-b;
+//        a= a- b;
+//        System.out.println("a =" + a);
+//        System.out.println("b =" + b);
 
 
 /**
 	Q2) Create 3 wrapper classes and print max and min values of the wrapper classes.
 
 */
+
+
+
+
+
 		//code
 Integer q=55;
 Byte w=45;
@@ -39,6 +52,11 @@ Short e=89;
  /*
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
  */
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter start and end numbers to print even number between your enteries");
+        int num1=scanner.nextInt();
+        int num2=scanner.nextInt();
 
 
 
