@@ -31,18 +31,17 @@ public class _Aug10 {
 */
 
 		//code
-Integer num =54;
-        System.out.println(num.MAX_VALUE);
-
-        System.out.println("max value of Integer: "+Integer.MAX_VALUE);
-        System.out.println("max value of Byte: "+Byte.MAX_VALUE);
-        System.out.println("max value of Short: "+Short.MAX_VALUE);
-        System.out.println("min value of Integer: "+Integer.MIN_VALUE);
-        System.out.println("min value of Byte: "+Byte.MIN_VALUE);
-        System.out.println("min value of Short: "+Short.MIN_VALUE);
 
 
- /*
+//        System.out.println("max value of Integer: "+Integer.MAX_VALUE);
+//        System.out.println("max value of Byte: "+Byte.MAX_VALUE);
+//        System.out.println("max value of Short: "+Short.MAX_VALUE);
+//        System.out.println("min value of Integer: "+Integer.MIN_VALUE);
+//        System.out.println("min value of Byte: "+Byte.MIN_VALUE);
+//        System.out.println("min value of Short: "+Short.MIN_VALUE);
+
+
+ /**
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
  */
 
@@ -50,20 +49,52 @@ Integer num =54;
 //        System.out.println("Enter start and end numbers to print even number between your enteries");
 //        int num1=scanner.nextInt();
 //        int num2=scanner.nextInt();
+//if (num1<num2){
+// for(int i=num1; i<num2; i++){
+//     if(i%2==0){
+//         System.out.print(i+" ");
+//     }
+//
+// }
+//}else if (num2<num1){
+//    for(int i=num2; i<num1; i++){
+//        if(i%2==0){
+//            System.out.print(i+" ");
+//        }}
+//}else {
+//    System.out.println(num1%2==0?num1:"There is no even number");
+//}
 
 
-
- /*
+ /**
     Q4)  copy q3 solutions to q4, and add a new feature
             from Q3 ==> count from start to end and print even numbers, (this part is done)
 
             Count from end to start and print odd numbers.
  */
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter start and end numbers to print odd number between your enteries");
+        int num1=scanner.nextInt();
+        int num2=scanner.nextInt();
+        if (num1<num2){
+            for(int i=num2; i>num1; i--){
+                if(i%2==1){
+                    System.out.print(i+" ");
+                }
+
+            }
+        }else if (num2<num1){
+            for(int i=num1; i>num2; i--){
+                if(i%2==1){
+                    System.out.print(i+" ");
+                }}
+        }else {
+            System.out.println(num1%2==1?num1:"There is no odd number");
+        }
 
 
 
-
-/*
+/**
 	Q5)
 	How to find the missing number in integer array of 1 to 25?
 
@@ -77,7 +108,7 @@ Integer num =54;
 
 
 
-/*
+/**
 
 	Q6)  from 1 to 25 but 3 numbers are missing
 
