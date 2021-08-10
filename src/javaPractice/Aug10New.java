@@ -1,6 +1,7 @@
 package javaPractice;
 
-public class _Aug10 {
+public class Aug10New {
+
     public static void main(String[] args) {
 /*
   	Q1) swap two numbers without creating and using a third variable?
