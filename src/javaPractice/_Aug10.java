@@ -2,20 +2,39 @@ package javaPractice;
 
 public class _Aug10 {
     public static void main(String[] args) {
-/*
+/**
   	Q1) swap two numbers without creating and using a third variable?
 		int a = 5;
 		int b = 8;
 */
 		//code
+//    int a = 5;
+//    int b = 8;
+//    a = a+b;
+//    b = a-b;
+//    a = a-b;
+//
+//        System.out.println("a="+a+" b="+b);
 
 
-
-/*
+/**
 	Q2) Create 3 wrapper classes and print max and min values of the wrapper classes.
 
 */
 		//code
+Integer q=55;
+Byte w=45;
+Short e=89;
+
+        System.out.println("max value of Integer: "+Integer.MAX_VALUE);
+        System.out.println("max value of Byte: "+Byte.MAX_VALUE);
+        System.out.println("max value of Short: "+Short.MAX_VALUE);
+        System.out.println("min value of Integer: "+Integer.MIN_VALUE);
+        System.out.println("min value of Byte: "+Byte.MIN_VALUE);
+        System.out.println("min value of Short: "+Short.MIN_VALUE);
+
+
+
 
  /*
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
