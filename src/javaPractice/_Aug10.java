@@ -8,14 +8,38 @@ public class _Aug10 {
 		int b = 8;
 */
 		//code
+        int a=5;
+        int b=8;
+        System.out.println(a +" "+ b);
+
+        b=a+b;
+        a=b-a;
+        b=b-a;
+        System.out.println(a +" "+ b);
 
 
 
-/*
+
+/**
 	Q2) Create 3 wrapper classes and print max and min values of the wrapper classes.
 
 */
 		//code
+        Integer i=3030;
+        Short s=10;
+        Double d=557.5;
+        long l=101054646;
+        Long lx=(long)12541;
+
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(i.MAX_VALUE);
+        System.out.println(s.MAX_VALUE);
+        System.out.println(s.MIN_VALUE);
+        System.out.println(Double.MIN_VALUE);
+        System.out.println(lx.MAX_VALUE);
+        System.out.println(Byte.MAX_VALUE);
+
+
 
  /*
     Q3)  a user should enter start and end number. create a loop to print even numbers from start to end
