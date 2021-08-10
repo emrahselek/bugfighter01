@@ -16,7 +16,7 @@ public class _Aug10 {
 //                a=b;
 //                b=temp;
 //
-        a= a+b; //13
+      a= a+b; //13
         b= a-b;
         a= a- b;
        System.out.println("a =" + a);
