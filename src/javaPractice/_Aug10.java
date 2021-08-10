@@ -42,7 +42,7 @@ public class _Aug10 {
  */
 
 
-
+ 	
 
 /*
 	Q5)
@@ -56,4 +56,6 @@ public class _Aug10 {
 */
 		//code
 
-
+    }
+	
+}
