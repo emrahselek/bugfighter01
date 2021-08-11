@@ -6,7 +6,7 @@ public class Question1 {
 
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
-        System.out.println("Enter two numbers to find even numbers between them ");
+        System.out.println("Enter two numbers to find even numbers between them... ");
         int num1= scanner.nextInt();
         int num2= scanner.nextInt();
 
@@ -16,7 +16,7 @@ public class Question1 {
            if (i % 2 == 0) {
                System.out.print(i + " ");
            }else{
-               System.out.println("there is not any even number");
+               System.out.println("there is not any even number.");
            }
 
     }
