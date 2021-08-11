@@ -1,6 +1,8 @@
 package javaPractice;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Aug10New {
@@ -111,8 +113,20 @@ Q6)  Use arraylist to find missing numbers
 	[1, 3, 8, 4, 5, 10, 7, 2, 9, 6, 11, 14, 17, 16, 23, 18, 19, 20, 22, 15, 24, 25]
 
 */
-        //code
+        List<Integer> number = new ArrayList<>(Arrays.asList(1, 21,12,13, 4, 5,7, 2, 9, 6, 11, 14, 17,
+                16, 23, 18, 19, 20, 22, 15, 24, 25));
 
+        for(int i=0; i<number.size();i++) {
+            if(!number.contains(i)) {
+                System.out.println(i);
+
+            }
+        }
+
+        System.out.println(number);
 
     }
-    }
+
+}
+
+
