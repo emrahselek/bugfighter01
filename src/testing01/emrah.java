@@ -9,7 +9,7 @@ public class emrah {
         System.out.println("new");
         
         System.out.println("new");
-        System.out.println("new");
+        System.out.println("newwww");
         
 
 
