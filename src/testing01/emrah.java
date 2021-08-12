@@ -7,7 +7,10 @@ public class emrah {
         System.out.println("Don`t touch my code :)....... ");
 
         System.out.println("new");
-
+        System.out.println("new");
+        System.out.println("new");//who knows:)
+        System.out.println("new");
+        System.out.println("new");//who knows:)
         System.out.println("new");
 
 
