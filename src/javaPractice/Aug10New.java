@@ -80,7 +80,7 @@ public class Aug10New {
             }
         }
         System.out.println("allright:)");
-        System.out.println("================");
+        System.out.println("=================");
 
 
 /**
