@@ -3,6 +3,7 @@ package javaPractice;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Aug11 {
     public static void main(String[] args) {
@@ -58,7 +59,21 @@ public class Aug11 {
    Q9 )
         Write a program to find a factorial that entered by user. Eliminate mistakes that can be entered by user
     */
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter a number to calculate its factorial");
+        int n = scanner.nextInt();
+        int prod = 1;
+        if (n == 0 ) {
+            System.out.println(n + "!=" + 1);
+        } else if(n<0) {
+            System.out.println("Factorial is defined in Whole Numbers. You can not find the factorial of negative numbers" );
+        }
+        else {
+            for (int i = n; i >0; i--) {
+                prod = prod * i;
+            }
+            System.out.println(n+"!="+prod);
+        }
 
     }
 }
