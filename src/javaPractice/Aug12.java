@@ -1,5 +1,7 @@
 package javaPractice;
 
+import java.util.Scanner;
+
 public class Aug12 {
     public static void main(String[] args) {
 
@@ -10,7 +12,10 @@ public class Aug12 {
 
          */
 
-
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please enter your name : ");
+        String name = scanner.nextLine();
+        System.out.println(name + " has "+ name.length() + " characters");
 
 
 
