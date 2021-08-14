@@ -6,5 +6,7 @@ public class Tugce {
         System.out.println("Ben geldim..");
         System.out.println("Ben geldim..");
         System.out.println("Ben geldim..");
+
+        System.out.println(" Tomorrow for the lazy people..");
     }
 }
