@@ -11,7 +11,7 @@ public class emrah {
         System.out.println("new");//who knows:)
         System.out.println("new");
         System.out.println("new");//who knows:)
-        System.out.println("new");
+        System.out.println("nnew");
 
 
     }
