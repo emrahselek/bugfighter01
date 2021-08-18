@@ -1,5 +1,6 @@
 package javaPractice;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class _Aug10 {
@@ -72,25 +73,25 @@ public class _Aug10 {
 
             Count from end to start and print odd numbers.
  */
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter start and end numbers to print odd number between your enteries");
-        int num1=scanner.nextInt();
-        int num2=scanner.nextInt();
-        if (num1<num2){
-            for(int i=num2; i>num1; i--){
-                if(i%2==1){
-                    System.out.print(i+" ");
-                }
-
-            }
-        }else if (num2<num1){
-            for(int i=num1; i>num2; i--){
-                if(i%2==1){
-                    System.out.print(i+" ");
-                }}
-        }else {
-            System.out.println(num1%2==1?num1:"There is no odd number");
-        }
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Enter start and end numbers to print odd number between your enteries");
+//        int num1=scanner.nextInt();
+//        int num2=scanner.nextInt();
+//        if (num1<num2){
+//            for(int i=num2; i>num1; i--){
+//                if(i%2==1){
+//                    System.out.print(i+" ");
+//                }
+//
+//            }
+//        }else if (num2<num1){
+//            for(int i=num1; i>num2; i--){
+//                if(i%2==1){
+//                    System.out.print(i+" ");
+//                }}
+//        }else {
+//            System.out.println(num1%2==1?num1:"There is no odd number");
+//        }
 
 
 
@@ -105,6 +106,20 @@ public class _Aug10 {
 
 */
 		//code
+        int arr[] = {1, 3, 8, 4, 5, 10, 7, 2, 9, 6, 11, 12, 14, 17, 16, 23, 18, 19, 20, 21, 22, 15, 24, 25};
+
+
+        Arrays.sort(arr);
+		System.out.println(Arrays.toString(arr));
+
+        for(int i=1; i<=25; i++) {
+            int newA = Arrays.binarySearch(arr, i);
+
+            if(newA <0) {
+                System.out.println(i);
+            }
+        }
+
 
 
 
