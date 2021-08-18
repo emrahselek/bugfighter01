@@ -1,33 +1,69 @@
 package javaPractice;
 
+import java.util.Scanner;
+
 public class Aug17 {
     public static void main(String[] args) {
         /**
          Q14 - ask user to enter a year, and check if it is leap year
          Leap year : a year that has 29 days in a february
 
-         gııgle for condition of the leap year
+         google for condition of the leap year
          */
 
+     /* divisible by 100 then it must be divisible by 400.
+		If a year is not divisible by 100 then it must be divisible by 4.
+
+        */
+
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter a year : ");
+        int year1 = scan.nextInt();
+
+
+        System.out.println(year1%100==0 && year1%400==0 ? " is a leap year." :
+                year1%100!=0 && year1%4==0 ? " is a leap year." : " is not a leap year.");
 
 
 //______________________________________________________________________________________________
         /**
-         Q15 - Create a menu, and show the menu to user. Ask user to choose from the menu,
-         and ask user to enter a number to process in the options according to conditions.
-         if a user enter 1,or 2 or ,3 or,4 => program proceed the followings
-
-         MENU----------------------
-         1 - Calculate factor of an integer
-         number should be entered from 2 to 10, if not ask user to enter again
-         2 - reverse a number
-         number should be bigger than 100, if not ask user again
-         3 - add each element of the number
-         number should be bigger than 100, if not ask user again
-         4 - count up to 100
-         number should be less than 100, if not ask user again
-
+          Q15-
+         Write a Java program to find the number of days in a month.(Use Switch Case)
+         (Interview Question / Leap Year)
 
          */
+        System.out.println("Enter a mounth and year to find find number of days ");
+        String month = scan.next().toLowerCase();
+        int year = scan.nextInt();
+
+        switch (month) {
+            case "january":
+            case "march":
+            case "may":
+            case "july":
+            case "august":
+            case "october":
+            case "december":
+                System.out.println(year+" "+month+" have 31 days... ");
+                break;
+            case "april":
+            case "june":
+            case "september":
+            case "november":
+                System.out.println(year+" "+month+" have 30 days... ");
+                break;
+            case "february":
+                System.out.println(year%100==0?year%400==0?year+" "+month+" have 29 days... ":year+" "+month+" have 28 days... " : year%4==0?year+" "+month+" have 29 days... ":year+" "+month+" have 28 days... ");
+                break;
+
+            default:
+                System.out.println("enter valid month");
+                break;
+        }
+
+
+
+
+
     }
 }
