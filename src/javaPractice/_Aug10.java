@@ -51,7 +51,7 @@ public class _Aug10 {
         int num1=scanner.nextInt();
         int num2=scanner.nextInt();
 
-        for (int i =)
+        //for (int i =)
 
 
 
