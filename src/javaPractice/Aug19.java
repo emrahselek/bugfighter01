@@ -135,7 +135,12 @@ public class Aug19 {
                            nameMiddle.substring(1, nameMiddle.indexOf(" ")).toLowerCase()+
                            nameMiddle.substring(nameMiddle.indexOf(" "),nameMiddle.indexOf(" ")+2).toUpperCase()+
                            nameMiddle.substring(nameMiddle.indexOf(" ")+2).toLowerCase();
-        //String nameFinal = name1.substring(0, 1).toUpperCase()+name1.substring(1, name1.indexOf(" ")).toLowerCase()+name1.substring(name1.lastIndexOf(" "),name1.lastIndexOf(" ")+2).toUpperCase()+name1.substring(name1.lastIndexOf(" ")+2).toLowerCase();
+        /*
+        String nameFinal = name1.substring(0, 1).toUpperCase()+
+                           name1.substring(1, name1.indexOf(" ")).toLowerCase()+
+                           name1.substring(name1.lastIndexOf(" "),name1.lastIndexOf(" ")+2).toUpperCase()+
+                           name1.substring(name1.lastIndexOf(" ")+2).toLowerCase();
+         */
        System.out.println("Final: "+nameFinal);
 
 
