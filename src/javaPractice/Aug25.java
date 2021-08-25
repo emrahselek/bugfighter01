@@ -49,26 +49,25 @@ public class Aug25 {
         //------------------------------------------------------------------------------------
         /**
          Q-21
-         Ask user to enter a password
-         If the password  is "Apple1234" show user secret message as "Mission Complete- Find Spider-Man and punish him"
-         If the password is wrong reverse the password in the system to make user to find it harder. Print on the console "The password is wrong, and changed"
-         To see what is the new password print it.
-
+             Ask user to enter a password
+             If the password  is "Apple1234" show user secret message as "Mission Complete- Find Spider-Man and punish him"
+             If the password is wrong reverse the password in the system to make user to find it harder. Print on the console "The password is wrong, and changed"
+             To see what is the new password print it.
          */
 
 
         /**
+         Q-22)
             String = "Java and Python are Programming languages. I use java for practices. What can I do sometimes with Java."
-         write a program to count "java"
-
+            write a program to count "java"
          */
 
 
 
         /**
-         String = "Java and Python are Programming languages. I use java for practices. What can I do sometimes with Java."
-       How many times each word is used in the String.
-
+         Q-23)
+            String = "Java and Python are Programming languages. I use java for practices. What can I do sometimes with Java."
+            How many times each word is used in the String.
          */
 
     }
