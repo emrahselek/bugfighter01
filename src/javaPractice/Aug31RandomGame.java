@@ -3,8 +3,12 @@ package javaPractice;
 public class Aug31RandomGame {
     public static void main(String[] args) {
         /**
-         * Create a number game
-         * Create a random number between 1 to 100
+
+         * Create a RandomNumber Class that generate numbers between 1 to 100
+         *
+         * NumberGame class:
+         *  * Create a NumberGame class and call random number from RandomNumber Class
+         *
          * ask user to enter number to guess
 
          *          if the user number is higher than random number "reduce your number"
