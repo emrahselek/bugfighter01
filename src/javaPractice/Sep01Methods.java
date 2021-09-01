@@ -39,8 +39,9 @@ public class Sep01Methods {
 
     //method4
         /**
-         *  Create fahtoCelCalculator method in MathHelp class
-         *  ask user to enter fahrenheit and convert it to Celsius
+         *  Create numberSequence method in MathHelp class
+         *  ask user to enter the sequence
+         *  count from 1 to 100 by sequence
          */
 
 
