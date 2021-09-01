@@ -9,7 +9,7 @@ public class Sep01Methods {
         1- Binary to Decimal
         2- Decimal to Binary
         3- Square Area Calculator
-        4- F to C Calculator
+        4- Number Sequence
         5- miles to km Calculator
         6- EXIT
        */
@@ -39,8 +39,9 @@ public class Sep01Methods {
 
     //method4
         /**
-         *  Create fahtoCelCalculator method in MathHelp class
-         *  ask user to enter fahrenheit and convert it to Celsius
+         *  Create numberSequence method in MathHelp class
+         *  ask user to enter the sequence
+         *  count from 1 to 100 by sequence
          */
 
 
