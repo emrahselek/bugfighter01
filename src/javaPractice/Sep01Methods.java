@@ -2,14 +2,14 @@ package javaPractice;
 
 public class Sep01Methods {
     public static void main(String[] args) {
-
+        MathHelp.menu();
     //method menu
       /**
             Create  menu method in this class and create following menu
         1- Binary to Decimal
         2- Decimal to Binary
         3- Square Area Calculator
-        4- F to C Calculator
+        4- Number Sequence
         5- miles to km Calculator
         6- EXIT
        */
