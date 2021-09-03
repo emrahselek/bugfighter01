@@ -2,7 +2,7 @@ package javaPractice;
 
 public class Sep01Methods {
     public static void main(String[] args) {
-
+        MathHelp.menu();
     //method menu
       /**
             Create  menu method in this class and create following menu
