@@ -1,6 +1,15 @@
 package javaPractice;
 
+import java.util.Scanner;
+
 public class MathHelp {
+
+    public static String askStringToUser(){
+        Scanner scan = new Scanner(System.in);
+        String str = scan.nextLine();
+        return str;
+    }
+
     public static void menu() {
         System.out.println();
         System.out.println("Select from the menu \n 1. Binary to Decimal \n 2. Decimal to Binary \n "
