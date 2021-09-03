@@ -1,0 +1,3 @@
+.gitignore.txt
+.idea/workspace.xml
+src/testing01/gitign.java
