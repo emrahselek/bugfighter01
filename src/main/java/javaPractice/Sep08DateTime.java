@@ -47,11 +47,14 @@ public class Sep08DateTime {
          */
 
 
-    }
+        }
 
     public static void panda(){
 
     }
 
+    public static LocalDateTime current(){
+return null;
+    }
 
 }
